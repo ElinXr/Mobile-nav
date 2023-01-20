@@ -28,7 +28,7 @@ html {
   flex-flow: column;
 }
 .navbar-menu {
- display: visible;
+ visibility: visible
 }
 @media screen and (max-width: 600px) {
   .navbar-menu {
@@ -36,10 +36,10 @@ html {
   }
 }
 .navbar-burger {
- display: visible;
+ visibility: visible
 }
-@media screen and (min-width: 600px) {
+@media screen and (max-width: 600px) {
   .navbar-burger {
-    display: hidden;
+    display: visible;
   }
 }
