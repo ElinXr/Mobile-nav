@@ -28,14 +28,6 @@ html {
   flex-flow: column;
 }
 
-.navbar-menu {
- visibility: visible;
-}
-
-.navbar-burger {
- visibility: visible;
-}
-
 @media screen and (max-width: 600px) {
   .navbar-burger {
     display: hidden;
